@@ -38,7 +38,7 @@
             this.btnSaludo.Name = "btnSaludo";
             this.btnSaludo.Size = new System.Drawing.Size(247, 144);
             this.btnSaludo.TabIndex = 0;
-            this.btnSaludo.Text = "Saludo";
+            this.btnSaludo.Text = "          Saludo          ";
             this.btnSaludo.UseVisualStyleBackColor = true;
             this.btnSaludo.Click += new System.EventHandler(this.BtnSaludo_Click);
             this.btnSaludo.MouseLeave += new System.EventHandler(this.BtnSaludo_MouseLeave);

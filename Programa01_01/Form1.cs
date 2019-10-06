@@ -12,8 +12,7 @@ namespace Programa01_01
 {
     public partial class Form1 : Form
     {
-        static Point x;
-
+        public static System.Drawing.Point b;
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +20,7 @@ namespace Programa01_01
 
         private void BtnSaludo_Click(object sender, EventArgs e)
         {
-            lblSaludo.Text = "     Hola mundo     ";
+            lblSaludo.Text = "**********Hola mundo**********";
         }
 
         private void BtnSaludo_MouseLeave(object sender, EventArgs e)
@@ -33,12 +32,15 @@ namespace Programa01_01
         {
             try
             {
-                if (btnSaludo.PointToScreen(Form1.x) > x)
-                    lblSaludo.Text = " " + lblSaludo.Text.Substring(0, lblSaludo.Text.Length - 1);
-                if (btnSaludo.PointToScreen < x)
-                    lblSaludo.Text = lblSaludo.Text.Substring(1, lblSaludo.Text.Length - 1) + " ";
+                if (lblSaludo.Text != "")
+                {
+                    if (e.X > b.X && lblSaludo.Text.Substring(lblSaludo.Text.Length - 1, 1) == "*")
+                        lblSaludo.Text = "*" + lblSaludo.Text.Substring(0, lblSaludo.Text.Length - 1);
+                    else if (e.X < b.X && lblSaludo.Text.Substring(0, 1) == "*")
+                        lblSaludo.Text = lblSaludo.Text.Substring(1, lblSaludo.Text.Length - 1) + "*";
 
-                x = btnSaludo.PointToScreen;
+                    b.X = e.X;
+                }
             }
             catch { }
         }
