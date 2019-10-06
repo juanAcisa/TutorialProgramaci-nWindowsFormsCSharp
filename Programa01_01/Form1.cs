@@ -38,7 +38,7 @@ namespace Programa01_01
                         lblSaludo.Text = "*" + lblSaludo.Text.Substring(0, lblSaludo.Text.Length - 1);
                     else if (e.X < b.X && lblSaludo.Text.Substring(0, 1) == "*")
                         lblSaludo.Text = lblSaludo.Text.Substring(1, lblSaludo.Text.Length - 1) + "*";
-
+                    
                     b.X = e.X;
                 }
             }
