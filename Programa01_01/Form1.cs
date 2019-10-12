@@ -20,7 +20,7 @@ namespace Programa01_01
 
         private void BtnSaludo_Click(object sender, EventArgs e)
         {
-            lblSaludo.Text = "**********Hola mundo**********";
+            lblSaludo.Text = "**********************Hola***********************";
         }
 
         private void BtnSaludo_MouseLeave(object sender, EventArgs e)

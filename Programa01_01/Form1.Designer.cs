@@ -46,9 +46,9 @@
             // 
             // lblSaludo
             // 
-            this.lblSaludo.Location = new System.Drawing.Point(183, 416);
+            this.lblSaludo.Location = new System.Drawing.Point(115, 415);
             this.lblSaludo.Name = "lblSaludo";
-            this.lblSaludo.Size = new System.Drawing.Size(264, 116);
+            this.lblSaludo.Size = new System.Drawing.Size(390, 64);
             this.lblSaludo.TabIndex = 1;
             // 
             // Form1
@@ -60,7 +60,7 @@
             this.Controls.Add(this.btnSaludo);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Programa01_01";
             this.ResumeLayout(false);
 
         }
