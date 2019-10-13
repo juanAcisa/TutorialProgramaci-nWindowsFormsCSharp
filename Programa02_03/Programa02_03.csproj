@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6D95A2D6-22D6-4210-9740-0F26751623F5}</ProjectGuid>
+    <ProjectGuid>{22B157D9-7731-4D2C-8056-A3A661442F63}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Programa02_02</RootNamespace>
-    <AssemblyName>Programa02_02</AssemblyName>
+    <RootNamespace>Programa02_03</RootNamespace>
+    <AssemblyName>Programa02_03</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,7 +22,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Programa02_02.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
